@@ -18,3 +18,13 @@ C:\Users\30880\Desktop\GitHub\hemigen\obj\Debug\Spelet123.Form_startMeny.resourc
 C:\Users\30880\Desktop\GitHub\hemigen\obj\Debug\Spelet123.GameForm.resources
 C:\Users\30880\Desktop\GitHub\hemigen\obj\Debug\Spelet123.Properties.Resources.resources
 C:\Users\30880\Desktop\GitHub\hemigen\obj\Debug\Spelet123.csproj.GenerateResource.Cache
+C:\Users\30880\Desktop\Spelet\Spelet\bin\Debug\Spelet123.exe.config
+C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.exe
+C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.pdb
+C:\Users\30880\Desktop\Spelet\Spelet\bin\Debug\Spelet123.exe
+C:\Users\30880\Desktop\Spelet\Spelet\bin\Debug\Spelet123.pdb
+C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.csprojResolveAssemblyReference.cache
+C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.Form_startMeny.resources
+C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.GameForm.resources
+C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.Properties.Resources.resources
+C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.csproj.GenerateResource.Cache
