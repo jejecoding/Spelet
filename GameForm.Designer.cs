@@ -41,7 +41,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panelMap.SuspendLayout();
+            this.tlpMap.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnClose
@@ -77,6 +79,7 @@
             this.tlpMap.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tlpMap.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tlpMap.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpMap.Controls.Add(this.button1, 0, 0);
             this.tlpMap.Location = new System.Drawing.Point(0, 0);
             this.tlpMap.Margin = new System.Windows.Forms.Padding(0);
             this.tlpMap.Name = "tlpMap";
@@ -204,6 +207,15 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Description";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(5, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(28, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -229,6 +241,7 @@
             this.Text = "Hem igen";
             this.Load += new System.EventHandler(this.GameForm_Load);
             this.panelMap.ResumeLayout(false);
+            this.tlpMap.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,5 +262,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
