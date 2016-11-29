@@ -33,7 +33,9 @@
             this.tlpMap = new System.Windows.Forms.TableLayoutPanel();
             this.tlpStats = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panelMap.SuspendLayout();
+            this.tlpMap.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnClose
@@ -69,6 +71,7 @@
             this.tlpMap.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tlpMap.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tlpMap.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tlpMap.Controls.Add(this.button1, 4, 4);
             this.tlpMap.Location = new System.Drawing.Point(0, 0);
             this.tlpMap.Margin = new System.Windows.Forms.Padding(0);
             this.tlpMap.Name = "tlpMap";
@@ -121,6 +124,15 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(406, 170);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(157, 157);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(30, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -138,6 +150,7 @@
             this.Text = "Hem igen";
             this.Load += new System.EventHandler(this.GameForm_Load);
             this.panelMap.ResumeLayout(false);
+            this.tlpMap.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -149,5 +162,6 @@
         private System.Windows.Forms.TableLayoutPanel tlpMap;
         private System.Windows.Forms.TableLayoutPanel tlpStats;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Button button1;
     }
 }
