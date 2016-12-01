@@ -1,0 +1,7 @@
+C:\Users\Joakim\Documents\GitHub\Spelet\ctlGameScreenLibrary\bin\Debug\ctlGameScreenLibrary.dll
+C:\Users\Joakim\Documents\GitHub\Spelet\ctlGameScreenLibrary\bin\Debug\ctlGameScreenLibrary.pdb
+C:\Users\Joakim\Documents\GitHub\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Joakim\Documents\GitHub\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.Statistics.resources
+C:\Users\Joakim\Documents\GitHub\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.csproj.GenerateResource.Cache
+C:\Users\Joakim\Documents\GitHub\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.dll
+C:\Users\Joakim\Documents\GitHub\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.pdb

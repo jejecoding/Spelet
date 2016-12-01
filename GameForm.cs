@@ -31,7 +31,7 @@ namespace Spelet123
 
         private void GameForm_Load(object sender, EventArgs e)
         {
-            
+            SetDefaultValues();
         }
 
         private void btnExitGame_Click(object sender, EventArgs e)
@@ -41,6 +41,29 @@ namespace Spelet123
             {
                 Application.Exit();
             }
+        }
+
+        private void SetDefaultValues()
+        {
+            statistics1.StatHealth = 100;
+            statistics1.StatWater = 100;
+            statistics1.StatSteps = 0;
+        }
+
+        private void btnStepTest_Click(object sender, EventArgs e)
+        {
+            statistics1.StatSteps++;
+            if (statistics1.StatWater > 0)
+                statistics1.StatWater = statistics1.StatWater - 5;
+            else
+            {
+                statistics1.StatHealth = statistics1.StatHealth - 5;
+                if (statistics1.StatHealth <= 0)
+                {
+                    MessageBox.Show("GameOver");
+                    btnStepTest.Enabled = false;
+                }
+            }                        
         }
     }
 }
