@@ -123,6 +123,7 @@
             this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
             this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
             this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0032F));
+            this.tlpInventory.Controls.Add(this.button1, 0, 0);
             this.tlpInventory.Location = new System.Drawing.Point(368, 214);
             this.tlpInventory.Name = "tlpInventory";
             this.tlpInventory.RowCount = 3;
@@ -213,7 +214,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(28, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "nigger";
+            this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // GameForm

@@ -38,3 +38,6 @@ C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.csproj.GenerateResource
 \\educ.nynashamn.se\dfs\users\30859\Spelet\obj\Debug\Spelet123.GameForm.resources
 \\educ.nynashamn.se\dfs\users\30859\Spelet\obj\Debug\Spelet123.Properties.Resources.resources
 \\educ.nynashamn.se\dfs\users\30859\Spelet\obj\Debug\Spelet123.csproj.GenerateResource.Cache
+C:\Users\Joakim\Documents\GitHub\Spelet\bin\Debug\Spelet123.exe.config
+C:\Users\Joakim\Documents\GitHub\Spelet\obj\Debug\Spelet123.exe
+C:\Users\Joakim\Documents\GitHub\Spelet\obj\Debug\Spelet123.pdb
