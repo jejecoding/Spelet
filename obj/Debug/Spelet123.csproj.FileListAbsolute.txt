@@ -28,3 +28,16 @@ C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.Form_startMeny.resource
 C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.GameForm.resources
 C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.Properties.Resources.resources
 C:\Users\30880\Desktop\Spelet\Spelet\obj\Debug\Spelet123.csproj.GenerateResource.Cache
+\\educ.nynashamn.se\dfs\users\30859\Spelet\bin\Debug\Spelet123.exe.config
+\\educ.nynashamn.se\dfs\users\30859\Spelet\obj\Debug\Spelet123.exe
+\\educ.nynashamn.se\dfs\users\30859\Spelet\obj\Debug\Spelet123.pdb
+\\educ.nynashamn.se\dfs\users\30859\Spelet\bin\Debug\Spelet123.exe
+\\educ.nynashamn.se\dfs\users\30859\Spelet\bin\Debug\Spelet123.pdb
+\\educ.nynashamn.se\dfs\users\30859\Spelet\obj\Debug\Spelet123.csprojResolveAssemblyReference.cache
+\\educ.nynashamn.se\dfs\users\30859\Spelet\obj\Debug\Spelet123.Form_startMeny.resources
+\\educ.nynashamn.se\dfs\users\30859\Spelet\obj\Debug\Spelet123.GameForm.resources
+\\educ.nynashamn.se\dfs\users\30859\Spelet\obj\Debug\Spelet123.Properties.Resources.resources
+\\educ.nynashamn.se\dfs\users\30859\Spelet\obj\Debug\Spelet123.csproj.GenerateResource.Cache
+C:\Users\Joakim\Documents\GitHub\Spelet\bin\Debug\Spelet123.exe.config
+C:\Users\Joakim\Documents\GitHub\Spelet\obj\Debug\Spelet123.exe
+C:\Users\Joakim\Documents\GitHub\Spelet\obj\Debug\Spelet123.pdb
