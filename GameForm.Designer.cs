@@ -31,8 +31,8 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.panelMap = new System.Windows.Forms.Panel();
             this.tlpMap = new System.Windows.Forms.TableLayoutPanel();
+            this.btnStepTest = new System.Windows.Forms.Button();
             this.tlpInventory = new System.Windows.Forms.TableLayoutPanel();
-            this.lblDesc = new System.Windows.Forms.Label();
             this.btnMagnifier = new System.Windows.Forms.Button();
             this.btnHand = new System.Windows.Forms.Button();
             this.btnExitGame = new System.Windows.Forms.Button();
@@ -41,7 +41,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.statistics1 = new ctlGameScreenLibrary.Statistics();
-            this.btnStepTest = new System.Windows.Forms.Button();
+            this.description1 = new ctlGameScreenLibrary.Description();
             this.panelMap.SuspendLayout();
             this.tlpMap.SuspendLayout();
             this.SuspendLayout();
@@ -96,6 +96,17 @@
             this.tlpMap.Size = new System.Drawing.Size(326, 326);
             this.tlpMap.TabIndex = 0;
             // 
+            // btnStepTest
+            // 
+            this.btnStepTest.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnStepTest.Location = new System.Drawing.Point(149, 149);
+            this.btnStepTest.Name = "btnStepTest";
+            this.btnStepTest.Size = new System.Drawing.Size(28, 28);
+            this.btnStepTest.TabIndex = 0;
+            this.btnStepTest.Text = "X";
+            this.btnStepTest.UseVisualStyleBackColor = true;
+            this.btnStepTest.Click += new System.EventHandler(this.btnStepTest_Click);
+            // 
             // tlpInventory
             // 
             this.tlpInventory.BackColor = System.Drawing.SystemColors.Window;
@@ -114,17 +125,6 @@
             this.tlpInventory.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tlpInventory.Size = new System.Drawing.Size(406, 146);
             this.tlpInventory.TabIndex = 3;
-            // 
-            // lblDesc
-            // 
-            this.lblDesc.BackColor = System.Drawing.Color.Black;
-            this.lblDesc.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblDesc.ForeColor = System.Drawing.Color.Lime;
-            this.lblDesc.Location = new System.Drawing.Point(12, 387);
-            this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(328, 162);
-            this.lblDesc.TabIndex = 4;
-            this.lblDesc.Text = "This text is a description for the biome you are in";
             // 
             // btnMagnifier
             // 
@@ -200,16 +200,12 @@
             this.statistics1.StatWater = 0;
             this.statistics1.TabIndex = 12;
             // 
-            // btnStepTest
+            // description1
             // 
-            this.btnStepTest.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnStepTest.Location = new System.Drawing.Point(149, 149);
-            this.btnStepTest.Name = "btnStepTest";
-            this.btnStepTest.Size = new System.Drawing.Size(28, 28);
-            this.btnStepTest.TabIndex = 0;
-            this.btnStepTest.Text = "X";
-            this.btnStepTest.UseVisualStyleBackColor = true;
-            this.btnStepTest.Click += new System.EventHandler(this.btnStepTest_Click);
+            this.description1.Location = new System.Drawing.Point(14, 387);
+            this.description1.Name = "description1";
+            this.description1.Size = new System.Drawing.Size(328, 162);
+            this.description1.TabIndex = 13;
             // 
             // GameForm
             // 
@@ -217,6 +213,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.ControlBox = false;
+            this.Controls.Add(this.description1);
             this.Controls.Add(this.statistics1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -225,7 +222,6 @@
             this.Controls.Add(this.btnExitGame);
             this.Controls.Add(this.btnHand);
             this.Controls.Add(this.btnMagnifier);
-            this.Controls.Add(this.lblDesc);
             this.Controls.Add(this.tlpInventory);
             this.Controls.Add(this.panelMap);
             this.Controls.Add(this.btnClose);
@@ -248,7 +244,6 @@
         private System.Windows.Forms.Panel panelMap;
         private System.Windows.Forms.TableLayoutPanel tlpMap;
         private System.Windows.Forms.TableLayoutPanel tlpInventory;
-        private System.Windows.Forms.Label lblDesc;
         private System.Windows.Forms.Button btnMagnifier;
         private System.Windows.Forms.Button btnHand;
         private System.Windows.Forms.Button btnExitGame;
@@ -258,5 +253,6 @@
         private System.Windows.Forms.Label label4;
         private ctlGameScreenLibrary.Statistics statistics1;
         private System.Windows.Forms.Button btnStepTest;
+        private ctlGameScreenLibrary.Description description1;
     }
 }

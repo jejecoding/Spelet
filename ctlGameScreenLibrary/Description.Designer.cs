@@ -28,10 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.lblDesc = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // lblDesc
+            // 
+            this.lblDesc.BackColor = System.Drawing.Color.Black;
+            this.lblDesc.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblDesc.ForeColor = System.Drawing.Color.Lime;
+            this.lblDesc.Location = new System.Drawing.Point(0, 0);
+            this.lblDesc.Name = "lblDesc";
+            this.lblDesc.Size = new System.Drawing.Size(328, 162);
+            this.lblDesc.TabIndex = 5;
+            this.lblDesc.Text = "This text is a description for the biome you are in";
+            // 
+            // Description
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblDesc);
+            this.Name = "Description";
+            this.Size = new System.Drawing.Size(328, 162);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblDesc;
     }
 }

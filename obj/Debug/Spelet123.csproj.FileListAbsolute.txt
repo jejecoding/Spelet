@@ -50,3 +50,15 @@ C:\Users\Joakim\Documents\GitHub\Spelet\obj\Debug\Spelet123.exe
 C:\Users\Joakim\Documents\GitHub\Spelet\obj\Debug\Spelet123.pdb
 C:\Users\Joakim\Documents\GitHub\Spelet\bin\Debug\Spelet123.exe.config
 C:\Users\Joakim\Documents\GitHub\Spelet\bin\Debug\Spelet123.pdb
+C:\Users\30880\Desktop\GitHub\Spelet\bin\Debug\Spelet123.exe.config
+C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.exe
+C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.pdb
+C:\Users\30880\Desktop\GitHub\Spelet\bin\Debug\Spelet123.exe
+C:\Users\30880\Desktop\GitHub\Spelet\bin\Debug\Spelet123.pdb
+C:\Users\30880\Desktop\GitHub\Spelet\bin\Debug\ctlGameScreenLibrary.dll
+C:\Users\30880\Desktop\GitHub\Spelet\bin\Debug\ctlGameScreenLibrary.pdb
+C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.csprojResolveAssemblyReference.cache
+C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.Form_startMeny.resources
+C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.GameForm.resources
+C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.Properties.Resources.resources
+C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.csproj.GenerateResource.Cache
