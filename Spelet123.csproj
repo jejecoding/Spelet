@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Spelet123</RootNamespace>
     <AssemblyName>Spelet123</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -56,6 +57,7 @@
     <Compile Include="GameForm.Designer.cs">
       <DependentUpon>GameForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MenuForm.resx">
@@ -107,6 +109,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\svårt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="ctlGameScreenLibrary\ctlGameScreenLibrary.csproj">
+      <Project>{ea3dc760-2445-4d9c-a4b0-c20cd3f275d3}</Project>
+      <Name>ctlGameScreenLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -36,6 +36,7 @@
             this.panel_StartMenu = new System.Windows.Forms.Panel();
             this.pBox_Exit = new System.Windows.Forms.PictureBox();
             this.pBox_Start = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel_difficulty.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pBox_Hardcore)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox_Hard)).BeginInit();
@@ -48,6 +49,7 @@
             // 
             // panel_difficulty
             // 
+            this.panel_difficulty.Controls.Add(this.button1);
             this.panel_difficulty.Controls.Add(this.pBox_Hardcore);
             this.panel_difficulty.Controls.Add(this.pBox_Hard);
             this.panel_difficulty.Controls.Add(this.pBox_Medium);
@@ -56,9 +58,6 @@
             this.panel_difficulty.Name = "panel_difficulty";
             this.panel_difficulty.Size = new System.Drawing.Size(784, 361);
             this.panel_difficulty.TabIndex = 1;
-
-//            this.panel_difficulty.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_difficulty_Paint);
-
             // 
             // pBox_Hardcore
             // 
@@ -139,12 +138,21 @@
             this.pBox_Start.TabStop = false;
             this.pBox_Start.Click += new System.EventHandler(this.pBox_Start_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(598, 268);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(119, 63);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "back";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form_startMeny
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 361);
-
             this.ControlBox = false;
             this.Controls.Add(this.panel_StartMenu);
             this.MaximizeBox = false;
@@ -175,6 +183,7 @@
         private System.Windows.Forms.PictureBox pBox_Hard;
         private System.Windows.Forms.PictureBox pBox_Medium;
         private System.Windows.Forms.PictureBox pBox_Easy;
+        private System.Windows.Forms.Button button1;
     }
 }
 
