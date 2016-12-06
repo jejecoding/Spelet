@@ -32,19 +32,26 @@
             this.panelMap = new System.Windows.Forms.Panel();
             this.tlpMap = new System.Windows.Forms.TableLayoutPanel();
             this.tlpStats = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.tlpInventory = new System.Windows.Forms.TableLayoutPanel();
+            this.lblDesc = new System.Windows.Forms.Label();
+            this.btnMagnifier = new System.Windows.Forms.Button();
+            this.btnHand = new System.Windows.Forms.Button();
+            this.btnExitGame = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panelMap.SuspendLayout();
             this.tlpMap.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(561, 366);
+            this.btnClose.Location = new System.Drawing.Point(680, 486);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(211, 183);
+            this.btnClose.Size = new System.Drawing.Size(92, 63);
             this.btnClose.TabIndex = 0;
-            this.btnClose.Text = "Back to Menu";
+            this.btnClose.Text = "Main Menu";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -53,9 +60,9 @@
             this.panelMap.BackColor = System.Drawing.SystemColors.Window;
             this.panelMap.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelMap.Controls.Add(this.tlpMap);
-            this.panelMap.Location = new System.Drawing.Point(12, 12);
+            this.panelMap.Location = new System.Drawing.Point(12, 30);
             this.panelMap.Name = "panelMap";
-            this.panelMap.Size = new System.Drawing.Size(350, 350);
+            this.panelMap.Size = new System.Drawing.Size(330, 330);
             this.panelMap.TabIndex = 1;
             // 
             // tlpMap
@@ -85,7 +92,7 @@
             this.tlpMap.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tlpMap.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tlpMap.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tlpMap.Size = new System.Drawing.Size(346, 346);
+            this.tlpMap.Size = new System.Drawing.Size(326, 326);
             this.tlpMap.TabIndex = 0;
             // 
             // tlpStats
@@ -94,7 +101,7 @@
             this.tlpStats.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Outset;
             this.tlpStats.ColumnCount = 1;
             this.tlpStats.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpStats.Location = new System.Drawing.Point(368, 14);
+            this.tlpStats.Location = new System.Drawing.Point(368, 30);
             this.tlpStats.Name = "tlpStats";
             this.tlpStats.RowCount = 5;
             this.tlpStats.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -102,27 +109,102 @@
             this.tlpStats.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlpStats.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlpStats.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tlpStats.Size = new System.Drawing.Size(406, 170);
+            this.tlpStats.Size = new System.Drawing.Size(406, 149);
             this.tlpStats.TabIndex = 2;
             // 
-            // tableLayoutPanel1
+            // tlpInventory
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Window;
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Outset;
-            this.tableLayoutPanel1.ColumnCount = 5;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0032F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(368, 190);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(406, 170);
-            this.tableLayoutPanel1.TabIndex = 3;
+            this.tlpInventory.BackColor = System.Drawing.SystemColors.Window;
+            this.tlpInventory.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Outset;
+            this.tlpInventory.ColumnCount = 5;
+            this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
+            this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
+            this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
+            this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
+            this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0032F));
+            this.tlpInventory.Location = new System.Drawing.Point(368, 214);
+            this.tlpInventory.Name = "tlpInventory";
+            this.tlpInventory.RowCount = 3;
+            this.tlpInventory.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tlpInventory.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tlpInventory.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tlpInventory.Size = new System.Drawing.Size(406, 146);
+            this.tlpInventory.TabIndex = 3;
+            // 
+            // lblDesc
+            // 
+            this.lblDesc.BackColor = System.Drawing.Color.Black;
+            this.lblDesc.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblDesc.ForeColor = System.Drawing.Color.Lime;
+            this.lblDesc.Location = new System.Drawing.Point(12, 387);
+            this.lblDesc.Name = "lblDesc";
+            this.lblDesc.Size = new System.Drawing.Size(328, 162);
+            this.lblDesc.TabIndex = 4;
+            this.lblDesc.Text = "This text is a description for the biome you are in";
+            // 
+            // btnMagnifier
+            // 
+            this.btnMagnifier.Location = new System.Drawing.Point(368, 387);
+            this.btnMagnifier.Name = "btnMagnifier";
+            this.btnMagnifier.Size = new System.Drawing.Size(219, 70);
+            this.btnMagnifier.TabIndex = 5;
+            this.btnMagnifier.Text = "Förstoringsglas";
+            this.btnMagnifier.UseVisualStyleBackColor = true;
+            // 
+            // btnHand
+            // 
+            this.btnHand.Location = new System.Drawing.Point(368, 486);
+            this.btnHand.Name = "btnHand";
+            this.btnHand.Size = new System.Drawing.Size(219, 63);
+            this.btnHand.TabIndex = 6;
+            this.btnHand.Text = "Hand";
+            this.btnHand.UseVisualStyleBackColor = true;
+            // 
+            // btnExitGame
+            // 
+            this.btnExitGame.Location = new System.Drawing.Point(680, 387);
+            this.btnExitGame.Name = "btnExitGame";
+            this.btnExitGame.Size = new System.Drawing.Size(92, 70);
+            this.btnExitGame.TabIndex = 7;
+            this.btnExitGame.Text = "Exit Game";
+            this.btnExitGame.UseVisualStyleBackColor = true;
+            this.btnExitGame.Click += new System.EventHandler(this.btnExitGame_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 11);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(28, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Map";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(365, 11);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Statistics";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(365, 198);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 13);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Inventory";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(9, 370);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 13);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Description";
             // 
             // button1
             // 
@@ -139,7 +221,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.ControlBox = false;
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnExitGame);
+            this.Controls.Add(this.btnHand);
+            this.Controls.Add(this.btnMagnifier);
+            this.Controls.Add(this.lblDesc);
+            this.Controls.Add(this.tlpInventory);
             this.Controls.Add(this.tlpStats);
             this.Controls.Add(this.panelMap);
             this.Controls.Add(this.btnClose);
@@ -152,6 +242,7 @@
             this.panelMap.ResumeLayout(false);
             this.tlpMap.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -161,7 +252,14 @@
         private System.Windows.Forms.Panel panelMap;
         private System.Windows.Forms.TableLayoutPanel tlpMap;
         private System.Windows.Forms.TableLayoutPanel tlpStats;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TableLayoutPanel tlpInventory;
+        private System.Windows.Forms.Label lblDesc;
+        private System.Windows.Forms.Button btnMagnifier;
+        private System.Windows.Forms.Button btnHand;
+        private System.Windows.Forms.Button btnExitGame;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
