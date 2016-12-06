@@ -46,3 +46,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.suo
+.vs/Spelet123/v14/.suo
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/Debug/Spelet123.csproj.GenerateResource.Cache

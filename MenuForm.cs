@@ -68,5 +68,11 @@ namespace Spelet123
 
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panel_difficulty.Visible = false;
+            panel_difficulty.Hide();
+        }
     }
 }

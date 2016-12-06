@@ -31,9 +31,8 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.panelMap = new System.Windows.Forms.Panel();
             this.tlpMap = new System.Windows.Forms.TableLayoutPanel();
-            this.tlpStats = new System.Windows.Forms.TableLayoutPanel();
+            this.btnStepTest = new System.Windows.Forms.Button();
             this.tlpInventory = new System.Windows.Forms.TableLayoutPanel();
-            this.lblDesc = new System.Windows.Forms.Label();
             this.btnMagnifier = new System.Windows.Forms.Button();
             this.btnHand = new System.Windows.Forms.Button();
             this.btnExitGame = new System.Windows.Forms.Button();
@@ -41,6 +40,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.statistics1 = new ctlGameScreenLibrary.Statistics();
+            this.description1 = new ctlGameScreenLibrary.Description();
             this.panelMap.SuspendLayout();
             this.tlpMap.SuspendLayout();
             this.SuspendLayout();
@@ -78,7 +79,7 @@
             this.tlpMap.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tlpMap.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tlpMap.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tlpMap.Controls.Add(this.button1, 4, 4);
+            this.tlpMap.Controls.Add(this.btnStepTest, 4, 4);
             this.tlpMap.Location = new System.Drawing.Point(0, 0);
             this.tlpMap.Margin = new System.Windows.Forms.Padding(0);
             this.tlpMap.Name = "tlpMap";
@@ -95,22 +96,16 @@
             this.tlpMap.Size = new System.Drawing.Size(326, 326);
             this.tlpMap.TabIndex = 0;
             // 
-            // tlpStats
+            // btnStepTest
             // 
-            this.tlpStats.BackColor = System.Drawing.SystemColors.Window;
-            this.tlpStats.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Outset;
-            this.tlpStats.ColumnCount = 1;
-            this.tlpStats.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tlpStats.Location = new System.Drawing.Point(368, 30);
-            this.tlpStats.Name = "tlpStats";
-            this.tlpStats.RowCount = 5;
-            this.tlpStats.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tlpStats.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tlpStats.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tlpStats.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tlpStats.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tlpStats.Size = new System.Drawing.Size(406, 149);
-            this.tlpStats.TabIndex = 2;
+            this.btnStepTest.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnStepTest.Location = new System.Drawing.Point(149, 149);
+            this.btnStepTest.Name = "btnStepTest";
+            this.btnStepTest.Size = new System.Drawing.Size(28, 28);
+            this.btnStepTest.TabIndex = 0;
+            this.btnStepTest.Text = "X";
+            this.btnStepTest.UseVisualStyleBackColor = true;
+            this.btnStepTest.Click += new System.EventHandler(this.btnStepTest_Click);
             // 
             // tlpInventory
             // 
@@ -122,6 +117,7 @@
             this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
             this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
             this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0032F));
+            this.tlpInventory.Controls.Add(this.button1, 0, 0);
             this.tlpInventory.Location = new System.Drawing.Point(368, 214);
             this.tlpInventory.Name = "tlpInventory";
             this.tlpInventory.RowCount = 3;
@@ -130,17 +126,6 @@
             this.tlpInventory.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tlpInventory.Size = new System.Drawing.Size(406, 146);
             this.tlpInventory.TabIndex = 3;
-            // 
-            // lblDesc
-            // 
-            this.lblDesc.BackColor = System.Drawing.Color.Black;
-            this.lblDesc.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblDesc.ForeColor = System.Drawing.Color.Lime;
-            this.lblDesc.Location = new System.Drawing.Point(12, 387);
-            this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(328, 162);
-            this.lblDesc.TabIndex = 4;
-            this.lblDesc.Text = "This text is a description for the biome you are in";
             // 
             // btnMagnifier
             // 
@@ -205,15 +190,23 @@
             this.label4.Size = new System.Drawing.Size(60, 13);
             this.label4.TabIndex = 11;
             this.label4.Text = "Description";
+            //
+            // statistics1
             // 
-            // button1
+            this.statistics1.Location = new System.Drawing.Point(368, 32);
+            this.statistics1.Name = "statistics1";
+            this.statistics1.Size = new System.Drawing.Size(406, 149);
+            this.statistics1.StatHealth = 0;
+            this.statistics1.StatSteps = 0;
+            this.statistics1.StatWater = 0;
+            this.statistics1.TabIndex = 12;
             // 
-            this.button1.Location = new System.Drawing.Point(157, 157);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            // description1
+            //
+            this.description1.Location = new System.Drawing.Point(14, 387);
+            this.description1.Name = "description1";
+            this.description1.Size = new System.Drawing.Size(328, 162);
+            this.description1.TabIndex = 13;
             // 
             // GameForm
             // 
@@ -221,6 +214,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.ControlBox = false;
+            this.Controls.Add(this.description1);
+            this.Controls.Add(this.statistics1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -228,9 +223,7 @@
             this.Controls.Add(this.btnExitGame);
             this.Controls.Add(this.btnHand);
             this.Controls.Add(this.btnMagnifier);
-            this.Controls.Add(this.lblDesc);
             this.Controls.Add(this.tlpInventory);
-            this.Controls.Add(this.tlpStats);
             this.Controls.Add(this.panelMap);
             this.Controls.Add(this.btnClose);
             this.MaximizeBox = false;
@@ -251,9 +244,7 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Panel panelMap;
         private System.Windows.Forms.TableLayoutPanel tlpMap;
-        private System.Windows.Forms.TableLayoutPanel tlpStats;
         private System.Windows.Forms.TableLayoutPanel tlpInventory;
-        private System.Windows.Forms.Label lblDesc;
         private System.Windows.Forms.Button btnMagnifier;
         private System.Windows.Forms.Button btnHand;
         private System.Windows.Forms.Button btnExitGame;
@@ -261,5 +252,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private ctlGameScreenLibrary.Statistics statistics1;
+        private System.Windows.Forms.Button btnStepTest;
+        private ctlGameScreenLibrary.Description description1;
     }
 }
