@@ -46,3 +46,11 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.suo
+.vs/Spelet123/v14/.suo
+ctlGameScreenLibrary/obj/Debug/ctlGameScreenLibrary.csproj.GenerateResource.Cache
+obj/Debug/Spelet123.csproj.GenerateResource.Cache
+obj/Debug/Spelet123.pdb
+ctlGameScreenLibrary/obj/Debug/ctlGameScreenLibrary.csproj.GenerateResource.Cache
+obj/Debug/Spelet123.csprojResolveAssemblyReference.cache
+bin/Debug/Spelet123.pdb
+obj/Debug/Spelet123.csproj.GenerateResource.Cache
