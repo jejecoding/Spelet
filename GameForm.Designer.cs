@@ -189,7 +189,7 @@
             this.label4.Size = new System.Drawing.Size(60, 13);
             this.label4.TabIndex = 11;
             this.label4.Text = "Description";
-            // 
+            //
             // statistics1
             // 
             this.statistics1.Location = new System.Drawing.Point(368, 30);
