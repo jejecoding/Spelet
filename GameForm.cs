@@ -12,10 +12,32 @@ namespace Spelet123
 {
     public partial class GameForm : Form
     {
-        
+
         public GameForm()
         {
             InitializeComponent();
+        }
+        public void DifficultyCheck(Enum_Difficulty saken)
+        {
+            switch(saken)
+            {
+                case Enum_Difficulty.Easy:
+                    GameForm.ActiveForm.Text += " - Easy";
+                    break;
+                case Enum_Difficulty.Medium:
+                    GameForm.ActiveForm.Text += " - Medium";
+                    break;
+                case Enum_Difficulty.Hard:
+                    GameForm.ActiveForm.Text += " - Hard";
+                    break;
+                case Enum_Difficulty.Hardcore:
+                    GameForm.ActiveForm.Text += " - Hardcore";
+                    break;
+                default:
+                    GameForm.ActiveForm.Text += " - fel";
+                    break;
+            }
+            
         }
         
         private void btnClose_Click(object sender, EventArgs e)

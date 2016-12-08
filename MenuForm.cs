@@ -12,6 +12,8 @@ namespace Spelet123
 {
     public partial class Form_startMeny : Form
     {
+        public Enum_Difficulty difficulty = new Enum_Difficulty();
+
         public Form_startMeny()
         {
             InitializeComponent();
@@ -29,7 +31,6 @@ namespace Spelet123
 
         private void Form_startMeny_Load(object sender, EventArgs e)
         {
-
             panel_difficulty.Visible = false;
             panel_difficulty.Hide(); //Vi Hidear difficulty menyn i början då start menyn ska visas först
 
@@ -46,26 +47,33 @@ namespace Spelet123
 
         private void pBox_Easy_Click(object sender, EventArgs e)
         {
+            difficulty = Enum_Difficulty.Easy;
             newForm.Show();
+            newForm.DifficultyCheck(difficulty);
             this.Hide();
         }
 
         private void pBox_Medium_Click(object sender, EventArgs e)
         {
+            difficulty = Enum_Difficulty.Medium;
             newForm.Show();
+            newForm.DifficultyCheck(difficulty);
             this.Hide();
         }
 
         private void pBox_Hard_Click(object sender, EventArgs e)
         {
+            difficulty = Enum_Difficulty.Hard;
             newForm.Show();
+            newForm.DifficultyCheck(difficulty);
             this.Hide();
         }
 
         private void pBox_Hardcore_Click(object sender, EventArgs e)
         {
+            difficulty = Enum_Difficulty.Hardcore;
             newForm.Show();
-
+            newForm.DifficultyCheck(difficulty);
             this.Hide();
         }
 

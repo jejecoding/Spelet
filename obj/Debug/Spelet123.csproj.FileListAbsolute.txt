@@ -62,3 +62,15 @@ C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.Form_startMeny.resource
 C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.GameForm.resources
 C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.Properties.Resources.resources
 C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.csproj.GenerateResource.Cache
+C:\Niggerigen\Spelet\bin\Debug\Spelet123.exe.config
+C:\Niggerigen\Spelet\obj\Debug\Spelet123.exe
+C:\Niggerigen\Spelet\obj\Debug\Spelet123.pdb
+C:\Niggerigen\Spelet\bin\Debug\Spelet123.exe
+C:\Niggerigen\Spelet\bin\Debug\Spelet123.pdb
+C:\Niggerigen\Spelet\bin\Debug\ctlGameScreenLibrary.dll
+C:\Niggerigen\Spelet\bin\Debug\ctlGameScreenLibrary.pdb
+C:\Niggerigen\Spelet\obj\Debug\Spelet123.csprojResolveAssemblyReference.cache
+C:\Niggerigen\Spelet\obj\Debug\Spelet123.Form_startMeny.resources
+C:\Niggerigen\Spelet\obj\Debug\Spelet123.GameForm.resources
+C:\Niggerigen\Spelet\obj\Debug\Spelet123.Properties.Resources.resources
+C:\Niggerigen\Spelet\obj\Debug\Spelet123.csproj.GenerateResource.Cache

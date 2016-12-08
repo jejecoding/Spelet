@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enum_Difficulty.cs" />
     <Compile Include="MenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +77,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="DifficultyCompontent.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -115,6 +117,18 @@
       <Project>{ea3dc760-2445-4d9c-a4b0-c20cd3f275d3}</Project>
       <Name>ctlGameScreenLibrary</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Piskel %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Piskel %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Piskel %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Piskel %285%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
