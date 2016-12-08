@@ -117,7 +117,6 @@
             this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
             this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.9992F));
             this.tlpInventory.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0032F));
-            this.tlpInventory.Controls.Add(this.button1, 0, 0);
             this.tlpInventory.Location = new System.Drawing.Point(368, 214);
             this.tlpInventory.Name = "tlpInventory";
             this.tlpInventory.RowCount = 3;
