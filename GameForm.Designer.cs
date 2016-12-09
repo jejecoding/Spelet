@@ -40,8 +40,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.statistics1 = new ctlGameScreenLibrary.Statistics();
             this.description1 = new ctlGameScreenLibrary.Description();
+            this.statistics1 = new ctlGameScreenLibrary.Statistics();
             this.panelMap.SuspendLayout();
             this.tlpMap.SuspendLayout();
             this.SuspendLayout();
@@ -190,23 +190,25 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Description";
             // 
+            // description1
+            // 
+            this.description1.BackgroundColor = System.Drawing.Color.Empty;
+            this.description1.DescriptionText = null;
+            this.description1.ForegroundColor = System.Drawing.Color.Empty;
+            this.description1.Location = new System.Drawing.Point(14, 387);
+            this.description1.Name = "description1";
+            this.description1.Size = new System.Drawing.Size(328, 162);
+            this.description1.TabIndex = 13;
+            // 
             // statistics1
             // 
-            this.statistics1.Location = new System.Drawing.Point(368, 30);
+            this.statistics1.Location = new System.Drawing.Point(368, 32);
             this.statistics1.Name = "statistics1";
             this.statistics1.Size = new System.Drawing.Size(406, 149);
             this.statistics1.StatHealth = 0;
             this.statistics1.StatSteps = 0;
             this.statistics1.StatWater = 0;
-            this.statistics1.TabIndex = 12;
-            // 
-            // description1
-            // 
-            this.description1.DescriptionText = null;
-            this.description1.Location = new System.Drawing.Point(14, 387);
-            this.description1.Name = "description1";
-            this.description1.Size = new System.Drawing.Size(328, 162);
-            this.description1.TabIndex = 13;
+            this.statistics1.TabIndex = 14;
             // 
             // GameForm
             // 
@@ -215,7 +217,6 @@
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.ControlBox = false;
             this.Controls.Add(this.description1);
-            this.Controls.Add(this.statistics1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -226,6 +227,7 @@
             this.Controls.Add(this.tlpInventory);
             this.Controls.Add(this.panelMap);
             this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.statistics1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "GameForm";
@@ -252,8 +254,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private ctlGameScreenLibrary.Statistics statistics1;
         private System.Windows.Forms.Button btnStepTest;
         private ctlGameScreenLibrary.Description description1;
+        private ctlGameScreenLibrary.Statistics statistics1;
     }
 }

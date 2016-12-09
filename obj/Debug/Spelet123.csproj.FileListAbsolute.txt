@@ -55,8 +55,6 @@ C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.exe
 C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.pdb
 C:\Users\30880\Desktop\GitHub\Spelet\bin\Debug\Spelet123.exe
 C:\Users\30880\Desktop\GitHub\Spelet\bin\Debug\Spelet123.pdb
-C:\Users\30880\Desktop\GitHub\Spelet\bin\Debug\ctlGameScreenLibrary.dll
-C:\Users\30880\Desktop\GitHub\Spelet\bin\Debug\ctlGameScreenLibrary.pdb
 C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.csprojResolveAssemblyReference.cache
 C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.Form_startMeny.resources
 C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\Spelet123.GameForm.resources
@@ -74,3 +72,5 @@ C:\Niggerigen\Spelet\obj\Debug\Spelet123.Form_startMeny.resources
 C:\Niggerigen\Spelet\obj\Debug\Spelet123.GameForm.resources
 C:\Niggerigen\Spelet\obj\Debug\Spelet123.Properties.Resources.resources
 C:\Niggerigen\Spelet\obj\Debug\Spelet123.csproj.GenerateResource.Cache
+C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\ctlGameScreenLibrary.Description.resources
+C:\Users\30880\Desktop\GitHub\Spelet\obj\Debug\ctlGameScreenLibrary.Statistics.resources
