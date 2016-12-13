@@ -13,10 +13,32 @@ namespace Spelet123
     public partial class GameForm : Form
     {
         Player play = new Player();
-        
+
         public GameForm()
         {
             InitializeComponent();
+        }
+        public void DifficultyCheck(Enum_Difficulty saken)
+        {
+            switch(saken)
+            {
+                case Enum_Difficulty.Easy:
+                    GameForm.ActiveForm.Text += " - Easy";
+                    break;
+                case Enum_Difficulty.Medium:
+                    GameForm.ActiveForm.Text += " - Medium";
+                    break;
+                case Enum_Difficulty.Hard:
+                    GameForm.ActiveForm.Text += " - Hard";
+                    break;
+                case Enum_Difficulty.Hardcore:
+                    GameForm.ActiveForm.Text += " - Hardcore";
+                    break;
+                default:
+                    GameForm.ActiveForm.Text += " - fel";
+                    break;
+            }
+            
         }
         
         private void btnClose_Click(object sender, EventArgs e)
@@ -49,6 +71,7 @@ namespace Spelet123
             statistics1.StatHealth = play.Health = 100;
             statistics1.StatWater = play.Water = 100;
             statistics1.StatSteps = play.Steps = 0;
+            description1.DescriptionText = "Helo and welkome to de gaem. press de buton in midle to play or smthng! xD";
         }
 
         private void btnStepTest_Click(object sender, EventArgs e)
@@ -61,10 +84,13 @@ namespace Spelet123
                 statistics1.StatHealth = play.DamageTaken();
                 if (statistics1.StatHealth <= 0)
                 {
-                    MessageBox.Show("GameOver");
+                    statistics1.StopTime(true);
                     btnStepTest.Enabled = false;
+                    MessageBox.Show("GameOver");
                 }
-            }                        
+            }
+
+            description1.DescriptionText = "Det funkar";                       
         }
 
         private void statistics1_Load(object sender, EventArgs e)

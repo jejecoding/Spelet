@@ -21,3 +21,11 @@ C:\Users\30867\Desktop\Gymnarbete\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameS
 C:\Users\30867\Desktop\Gymnarbete\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.csproj.GenerateResource.Cache
 C:\Users\30867\Desktop\Gymnarbete\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.dll
 C:\Users\30867\Desktop\Gymnarbete\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.pdb
+C:\Niggerigen\Spelet\ctlGameScreenLibrary\bin\Debug\ctlGameScreenLibrary.dll
+C:\Niggerigen\Spelet\ctlGameScreenLibrary\bin\Debug\ctlGameScreenLibrary.pdb
+C:\Niggerigen\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.csprojResolveAssemblyReference.cache
+C:\Niggerigen\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.Description.resources
+C:\Niggerigen\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.Statistics.resources
+C:\Niggerigen\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.csproj.GenerateResource.Cache
+C:\Niggerigen\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.dll
+C:\Niggerigen\Spelet\ctlGameScreenLibrary\obj\Debug\ctlGameScreenLibrary.pdb

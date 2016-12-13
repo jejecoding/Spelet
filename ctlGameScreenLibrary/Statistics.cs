@@ -67,7 +67,10 @@ namespace ctlGameScreenLibrary
             }
         }
 
-        
+        public void StopTime()
+        {
+            tmrPlaytime.Stop();
+        }
 
         public Statistics()
         {
