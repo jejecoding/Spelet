@@ -12,6 +12,7 @@ namespace Spelet123
 {
     public partial class GameForm : Form
     {
+        Player play = new Player();
         
         public GameForm()
         {
@@ -45,25 +46,30 @@ namespace Spelet123
 
         private void SetDefaultValues()
         {
-            statistics1.StatHealth = 100;
-            statistics1.StatWater = 100;
-            statistics1.StatSteps = 0;
+            statistics1.StatHealth = play.Health = 100;
+            statistics1.StatWater = play.Water = 100;
+            statistics1.StatSteps = play.Steps = 0;
         }
 
         private void btnStepTest_Click(object sender, EventArgs e)
         {
-            statistics1.StatSteps++;
+            statistics1.StatSteps = play.StepTaken();
             if (statistics1.StatWater > 0)
-                statistics1.StatWater = statistics1.StatWater - 5;
+                statistics1.StatWater = play.Thirst();
             else
             {
-                statistics1.StatHealth = statistics1.StatHealth - 5;
+                statistics1.StatHealth = play.DamageTaken();
                 if (statistics1.StatHealth <= 0)
                 {
                     MessageBox.Show("GameOver");
                     btnStepTest.Enabled = false;
                 }
             }                        
+        }
+
+        private void statistics1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -195,10 +195,11 @@
             this.statistics1.Location = new System.Drawing.Point(368, 30);
             this.statistics1.Name = "statistics1";
             this.statistics1.Size = new System.Drawing.Size(406, 149);
-            this.statistics1.StatHealth = 0;
+            this.statistics1.StatHealth = 100;
             this.statistics1.StatSteps = 0;
             this.statistics1.StatWater = 0;
             this.statistics1.TabIndex = 12;
+            this.statistics1.Load += new System.EventHandler(this.statistics1_Load);
             // 
             // description1
             // 
