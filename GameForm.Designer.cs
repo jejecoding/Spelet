@@ -203,8 +203,10 @@
             // 
             // description1
             // 
-            this.description1.DescriptionText = null;
-            this.description1.Location = new System.Drawing.Point(14, 387);
+            this.description1.BackgroundColor = System.Drawing.Color.Empty;
+            this.description1.DescriptionTextLOL = null;
+            this.description1.ForegroundColor = System.Drawing.Color.Empty;
+            this.description1.Location = new System.Drawing.Point(13, 387);
             this.description1.Name = "description1";
             this.description1.Size = new System.Drawing.Size(328, 162);
             this.description1.TabIndex = 13;

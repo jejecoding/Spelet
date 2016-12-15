@@ -71,7 +71,7 @@ namespace Spelet123
             statistics1.StatHealth = play.Health = 100;
             statistics1.StatWater = play.Water = 100;
             statistics1.StatSteps = play.Steps = 0;
-            description1.DescriptionText = "Helo and welkome to de gaem. press de buton in midle to play or smthng! xD";
+            description1.DescriptionTextLOL = "Helo and welkome to de gaem. press de buton in midle to play or smthng! xD";
         }
 
         private void btnStepTest_Click(object sender, EventArgs e)
@@ -84,13 +84,13 @@ namespace Spelet123
                 statistics1.StatHealth = play.DamageTaken();
                 if (statistics1.StatHealth <= 0)
                 {
-                    statistics1.StopTime(true);
+                    statistics1.StopTime();
                     btnStepTest.Enabled = false;
                     MessageBox.Show("GameOver");
                 }
             }
 
-            description1.DescriptionText = "Det funkar";                       
+            description1.DescriptionTextLOL = "Det funkar";                       
         }
 
         private void statistics1_Load(object sender, EventArgs e)

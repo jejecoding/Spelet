@@ -16,7 +16,7 @@ namespace ctlGameScreenLibrary
         Color backgroundColor;
         string descriptionText;
         
-        public string DescriptionText
+        public string DescriptionTextLOL
         {
             get
             {
