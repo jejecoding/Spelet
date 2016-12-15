@@ -84,10 +84,11 @@ namespace Spelet123
                 statistics1.StatHealth = statistics1.StatHealth - 5;
                 if (statistics1.StatHealth <= 0)
                 {
-                    MessageBox.Show("GameOver");
+                    statistics1.StopTime(true);
                     btnStepTest.Enabled = false;
                     btnHand.Enabled = false;
                     btnMagnifier.Enabled = false;
+                    MessageBox.Show("GameOver");
                 }
             }
 
