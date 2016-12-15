@@ -86,6 +86,8 @@ namespace Spelet123
                 {
                     MessageBox.Show("GameOver");
                     btnStepTest.Enabled = false;
+                    btnHand.Enabled = false;
+                    btnMagnifier.Enabled = false;
                 }
             }
 
