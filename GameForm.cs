@@ -71,7 +71,7 @@ namespace Spelet123
             statistics1.StatWater = 100;
             statistics1.StatSteps = 0;
 
-            description1.DescriptionText = "Helo and welkome to de gaem. press de buton in midle to play or smthng! xD";
+            lblDescription.Text = "Helo and welkome to de gaem. press de buton in midle to play or smthng! xD";
         }
 
         private void btnStepTest_Click(object sender, EventArgs e)
@@ -86,11 +86,13 @@ namespace Spelet123
                 {
                     statistics1.StopTime(true);
                     btnStepTest.Enabled = false;
+                    btnHand.Enabled = false;
+                    btnMagnifier.Enabled = false;
                     MessageBox.Show("GameOver");
                 }
             }
 
-            description1.DescriptionText = "Det funkar";                       
+            lblDescription.Text = "Det funkar";                       
         }
     }
 }

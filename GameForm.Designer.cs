@@ -41,7 +41,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.statistics1 = new ctlGameScreenLibrary.Statistics();
-            this.description1 = new ctlGameScreenLibrary.Description();
+            this.lblDescription = new System.Windows.Forms.Label();
             this.panelMap.SuspendLayout();
             this.tlpMap.SuspendLayout();
             this.SuspendLayout();
@@ -200,13 +200,15 @@
             this.statistics1.StatWater = 0;
             this.statistics1.TabIndex = 12;
             // 
-            // description1
+            // lblDescription
             // 
-            this.description1.DescriptionText = null;
-            this.description1.Location = new System.Drawing.Point(14, 387);
-            this.description1.Name = "description1";
-            this.description1.Size = new System.Drawing.Size(328, 162);
-            this.description1.TabIndex = 13;
+            this.lblDescription.BackColor = System.Drawing.SystemColors.Window;
+            this.lblDescription.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblDescription.Location = new System.Drawing.Point(11, 387);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(329, 162);
+            this.lblDescription.TabIndex = 13;
+            this.lblDescription.Text = "Description text lolol";
             // 
             // GameForm
             // 
@@ -214,7 +216,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.ControlBox = false;
-            this.Controls.Add(this.description1);
+            this.Controls.Add(this.lblDescription);
             this.Controls.Add(this.statistics1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -254,6 +256,6 @@
         private System.Windows.Forms.Label label4;
         private ctlGameScreenLibrary.Statistics statistics1;
         private System.Windows.Forms.Button btnStepTest;
-        private ctlGameScreenLibrary.Description description1;
+        private System.Windows.Forms.Label lblDescription;
     }
 }
