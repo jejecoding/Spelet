@@ -16,7 +16,9 @@ namespace Spelet123
         public GameForm()
         {
             InitializeComponent();
+            //statName();
         }
+
         public void DifficultyCheck(Enum_Difficulty saken)
         {
             switch(saken)
@@ -70,6 +72,7 @@ namespace Spelet123
             statistics1.StatHealth = 100;
             statistics1.StatWater = 100;
             statistics1.StatSteps = 0;
+
         }
 
         private void btnStepTest_Click(object sender, EventArgs e)

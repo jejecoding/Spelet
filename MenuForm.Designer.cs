@@ -30,6 +30,8 @@
         {
             this.panel_StartMenu = new System.Windows.Forms.Panel();
             this.panel_difficulty = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.nameBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pBox_Hardcore = new System.Windows.Forms.PictureBox();
             this.pBox_Hard = new System.Windows.Forms.PictureBox();
@@ -62,6 +64,8 @@
             // 
             // panel_difficulty
             // 
+            this.panel_difficulty.Controls.Add(this.label1);
+            this.panel_difficulty.Controls.Add(this.nameBox);
             this.panel_difficulty.Controls.Add(this.button1);
             this.panel_difficulty.Controls.Add(this.pBox_Hardcore);
             this.panel_difficulty.Controls.Add(this.pBox_Hard);
@@ -71,6 +75,22 @@
             this.panel_difficulty.Name = "panel_difficulty";
             this.panel_difficulty.Size = new System.Drawing.Size(784, 361);
             this.panel_difficulty.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(309, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Name";
+            // 
+            // nameBox
+            // 
+            this.nameBox.Location = new System.Drawing.Point(350, 12);
+            this.nameBox.Name = "nameBox";
+            this.nameBox.Size = new System.Drawing.Size(100, 20);
+            this.nameBox.TabIndex = 1;
             // 
             // button1
             // 
@@ -163,6 +183,7 @@
             this.Load += new System.EventHandler(this.Form_startMeny_Load);
             this.panel_StartMenu.ResumeLayout(false);
             this.panel_difficulty.ResumeLayout(false);
+            this.panel_difficulty.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pBox_Hardcore)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox_Hard)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox_Medium)).EndInit();
@@ -184,6 +205,8 @@
         private System.Windows.Forms.PictureBox pBox_Medium;
         private System.Windows.Forms.PictureBox pBox_Easy;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.TextBox nameBox;
     }
 }
 

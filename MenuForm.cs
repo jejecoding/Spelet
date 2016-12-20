@@ -47,34 +47,66 @@ namespace Spelet123
 
         private void pBox_Easy_Click(object sender, EventArgs e)
         {
-            difficulty = Enum_Difficulty.Easy;
-            newForm.Show();
-            newForm.DifficultyCheck(difficulty);
-            this.Hide();
+            if(nameBox.Text == "")
+            {
+                MessageBox.Show("Du har inte valt något namn! ");
+            }
+            else
+            {
+                difficulty = Enum_Difficulty.Easy;
+                newForm.Show();
+                newForm.DifficultyCheck(difficulty);
+                newForm.label2.Text += String.Format("{0}", nameBox.Text);
+                this.Hide();
+            }          
         }
 
         private void pBox_Medium_Click(object sender, EventArgs e)
         {
-            difficulty = Enum_Difficulty.Medium;
-            newForm.Show();
-            newForm.DifficultyCheck(difficulty);
-            this.Hide();
+            if (nameBox.Text == "")
+            {
+                MessageBox.Show("Du har inte valt något namn! ");
+            }
+            else
+            {
+                difficulty = Enum_Difficulty.Medium;
+                newForm.Show();
+                newForm.DifficultyCheck(difficulty);
+                newForm.label2.Text += String.Format("{0}", nameBox.Text);
+                this.Hide();
+            }
         }
 
         private void pBox_Hard_Click(object sender, EventArgs e)
         {
-            difficulty = Enum_Difficulty.Hard;
-            newForm.Show();
-            newForm.DifficultyCheck(difficulty);
-            this.Hide();
+            if (nameBox.Text == "")
+            {
+                MessageBox.Show("Du har inte valt något namn! ");
+            }
+            else
+            {
+                difficulty = Enum_Difficulty.Hard;
+                newForm.Show();
+                newForm.DifficultyCheck(difficulty);
+                newForm.label2.Text += String.Format("{0}", nameBox.Text);
+                this.Hide();
+            }
         }
 
         private void pBox_Hardcore_Click(object sender, EventArgs e)
         {
-            difficulty = Enum_Difficulty.Hardcore;
-            newForm.Show();
-            newForm.DifficultyCheck(difficulty);
-            this.Hide();
+            if (nameBox.Text == "")
+            {
+                MessageBox.Show("Du har inte valt något namn! ");
+            }
+            else
+            {
+                difficulty = Enum_Difficulty.Hardcore;
+                newForm.Show();
+                newForm.DifficultyCheck(difficulty);
+                newForm.label2.Text += String.Format("{0}", nameBox.Text);
+                this.Hide();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
